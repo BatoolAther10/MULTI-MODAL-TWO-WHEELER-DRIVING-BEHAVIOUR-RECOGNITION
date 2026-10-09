@@ -1,0 +1,15 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+xgboost
+lightgbm
+tensorflow
+torch
+onnx
+onnxruntime
+jupyter
+einops
+scipy

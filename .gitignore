@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+models/*.tflite
+models/*.onnx
+models/*.json
+logs/*.csv
+logs/*.json
+logs/figures/
+*.DS_Store

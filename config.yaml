@@ -1,0 +1,86 @@
+project:
+  name: two_wheeler_project
+  root_dir: .
+
+data:
+  raw_csv: data/raw/test.csv
+  processed_dir: data/processed
+  clean_csv: data/processed/clean.csv
+  windows_npz: data/processed/windows.npz
+  splits_npz: data/processed/splits.npz
+  session_gap_threshold_s: 60.0
+
+experiment:
+  seed: 42
+
+anomaly:
+  normal_label: STRAIGHT
+
+model:
+  type: tst
+  path: models/tst.tflite
+  fallback: xgboost
+  fallback_path: models/xgboost.json
+  primary: tst
+  latency_budget_ms: 10.0
+  models_dir: models
+
+benchmark:
+  models:
+    - conv_transformer
+    - convnet_har
+    - dtaad
+    - egodrive_max
+    - egodrive_rt
+    - fusformer
+    - gru
+    - histgradientboosting
+    - lightgbm
+    - linear_svm
+    - logistic_regression
+    - lru
+    - lstm
+    - mega
+    - mlp_tabular
+    - random_forest
+    - rbf_svm
+    - resnet1d
+    - s4d
+    - s5
+    - s5_onnx
+    - sgconv
+    - stub
+    - tcnca
+    - tcnca_v1
+    - tcnca_v2
+    - tcnca_v3
+    - tst
+    - xgboost
+
+runtime:
+  sensor_sample_rate_hz: 50
+  window_size: 156
+  stride: 78
+  feature_columns: [Ax, Ay, Az, Gx, Gy, Gz, Speed]
+  classes: [BUMP, LEFT, RIGHT, STOP, STRAIGHT]
+
+logging:
+  benchmark_csv: logs/benchmark.csv
+  benchmark_tabular_csv: logs/benchmark_tabular.csv
+  benchmark_recurrent_csv: logs/benchmark_recurrent.csv
+  benchmark_conv_csv: logs/benchmark_conv.csv
+  benchmark_ssm_csv: logs/benchmark_ssm.csv
+  benchmark_transformers_csv: logs/benchmark_transformers.csv
+  benchmark_dtaad_csv: logs/benchmark_dtaad.csv
+  benchmark_all_csv: logs/benchmark_all.csv
+  benchmark_splits_csv: logs/benchmark_splits.csv
+  latency_breakdown_csv: logs/latency_breakdown.csv
+  sweep_json: logs/sweep_results.json
+  figures_dir: logs/figures
+
+robustness:
+  evaluation_windows: 500
+  window_sizes: [100, 128, 156, 200]
+  noise_snr_db: [30, 20, 10]
+  missing_rates: [0.01, 0.05, 0.10, 0.20]
+  clock_offsets_ms: [10, 50, 100]
