@@ -1,0 +1,42 @@
+{
+  "models": [
+    "histgradientboosting",
+    "lightgbm",
+    "random_forest",
+    "xgboost",
+    "logistic_regression",
+    "linear_svm",
+    "mlp_tabular",
+    "conv_transformer",
+    "gru",
+    "lstm",
+    "fusformer",
+    "mega",
+    "convnet_har",
+    "tcnca_v3",
+    "rbf_svm",
+    "tcnca_v2",
+    "tcnca_v1",
+    "tst",
+    "s4d",
+    "s5_onnx",
+    "lru",
+    "sgconv",
+    "resnet1d"
+  ],
+  "labels": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "window_counts": {
+    "train": 3875,
+    "val": 1045,
+    "combined": 4921,
+    "test": 1045
+  },
+  "test_evaluation": "saved deployment artifacts evaluated exactly once; robustness uses validation windows",
+  "report": "logs\\COMPREHENSIVE_WORKFLOW_REPORT.md"
+}

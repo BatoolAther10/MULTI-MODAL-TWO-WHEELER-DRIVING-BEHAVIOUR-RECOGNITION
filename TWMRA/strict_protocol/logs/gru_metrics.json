@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.7799043062200957,
+  "macro_f1": 0.7476385281385282,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\gru.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\gru.keras",
+  "n_windows": 1045
+}

@@ -1,0 +1,16 @@
+{
+  "model": "tst",
+  "accuracy": 0.7511961722488039,
+  "macro_f1": 0.7405400467294895,
+  "mae": 0.7320573925971985,
+  "num_params": 10124,
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tst_optimized.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tst_optimized.keras",
+  "configuration": {
+    "d_model": 24,
+    "num_heads": 2,
+    "feedforward_dim": 48,
+    "num_blocks": 2,
+    "dropout": 0.1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "model": "dtaad",
+  "normal_label": "STRAIGHT",
+  "normal_train_windows": 445,
+  "threshold_p95": 2.3434582233428953,
+  "mean_normal_error": 0.5861687064170837,
+  "mean_anomaly_error": 0.26527905464172363,
+  "roc_auc": 0.3289850187265918,
+  "params": 11399,
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\dtaad.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\dtaad.keras"
+}

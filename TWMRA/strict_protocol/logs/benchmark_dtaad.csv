@@ -1,0 +1,2 @@
+model,normal_label,normal_train_windows,threshold_p95,mean_normal_error,mean_anomaly_error,roc_auc,params,model_path,fallback_path
+dtaad,STRAIGHT,445,2.3434582233428953,0.5861687064170837,0.26527905464172363,0.3289850187265918,11399,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\dtaad.tflite,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\dtaad.keras

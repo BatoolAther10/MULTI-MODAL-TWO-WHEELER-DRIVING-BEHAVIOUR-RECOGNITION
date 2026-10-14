@@ -1,0 +1,12 @@
+[
+  {
+    "model": "egodrive_rt",
+    "status": "NOT_IMPLEMENTED",
+    "reason": "NOT_IMPLEMENTED: EgoDriveRT weights are not public; authors were contacted."
+  },
+  {
+    "model": "egodrive_max",
+    "status": "REJECTED",
+    "reason": "NOT_IMPLEMENTED: EgoDriveMax rejected because it exceeds 10M parameters and the 10 ms budget."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "d_model": 24.0,
+  "num_heads": 2.0,
+  "feedforward_dim": 48.0,
+  "num_blocks": 2.0,
+  "dropout": 0.1,
+  "accuracy": 0.6842105263157895,
+  "macro_f1": 0.6114801340929932,
+  "mae": 0.9330143332481384,
+  "latency_ms": 54.16680000780616,
+  "num_params": 10109.0
+}

@@ -1,0 +1,138 @@
+{
+  "runs": [
+    {
+      "name": "wider",
+      "d_model": 24,
+      "num_heads": 2,
+      "feedforward_dim": 48,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 7,
+      "accuracy": 0.6889952153110048,
+      "macro_f1": 0.6442588437710388,
+      "num_params": 10109
+    },
+    {
+      "name": "wider",
+      "d_model": 24,
+      "num_heads": 2,
+      "feedforward_dim": 48,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 42,
+      "accuracy": 0.722488038277512,
+      "macro_f1": 0.6582283100873806,
+      "num_params": 10109
+    },
+    {
+      "name": "wider",
+      "d_model": 24,
+      "num_heads": 2,
+      "feedforward_dim": 48,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 123,
+      "accuracy": 0.722488038277512,
+      "macro_f1": 0.6696363789489038,
+      "num_params": 10109
+    },
+    {
+      "name": "more_heads",
+      "d_model": 16,
+      "num_heads": 4,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 7,
+      "accuracy": 0.7129186602870813,
+      "macro_f1": 0.6587862813956217,
+      "num_params": 4693
+    },
+    {
+      "name": "more_heads",
+      "d_model": 16,
+      "num_heads": 4,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 42,
+      "accuracy": 0.6267942583732058,
+      "macro_f1": 0.4672994482553219,
+      "num_params": 4693
+    },
+    {
+      "name": "more_heads",
+      "d_model": 16,
+      "num_heads": 4,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.1,
+      "seed": 123,
+      "accuracy": 0.6602870813397129,
+      "macro_f1": 0.605979000588448,
+      "num_params": 4693
+    },
+    {
+      "name": "baseline",
+      "d_model": 16,
+      "num_heads": 2,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.0,
+      "seed": 7,
+      "accuracy": 0.7511961722488039,
+      "macro_f1": 0.7094050273504549,
+      "num_params": 4693
+    },
+    {
+      "name": "baseline",
+      "d_model": 16,
+      "num_heads": 2,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.0,
+      "seed": 42,
+      "accuracy": 0.69377990430622,
+      "macro_f1": 0.6014604949016442,
+      "num_params": 4693
+    },
+    {
+      "name": "baseline",
+      "d_model": 16,
+      "num_heads": 2,
+      "feedforward_dim": 32,
+      "num_blocks": 2,
+      "dropout": 0.0,
+      "seed": 123,
+      "accuracy": 0.6507177033492823,
+      "macro_f1": 0.5490339732731038,
+      "num_params": 4693
+    }
+  ],
+  "summary": [
+    {
+      "name": "wider",
+      "mean_accuracy": 0.711323763955343,
+      "std_accuracy": 0.015788668160465154,
+      "mean_macro_f1": 0.6573745109357745,
+      "std_macro_f1": 0.010377910922384027,
+      "num_params": 10109
+    },
+    {
+      "name": "baseline",
+      "mean_accuracy": 0.6985645933014354,
+      "std_accuracy": 0.0411594510384815,
+      "mean_macro_f1": 0.6199664985084009,
+      "std_macro_f1": 0.06676612351380071,
+      "num_params": 4693
+    },
+    {
+      "name": "more_heads",
+      "mean_accuracy": 0.6666666666666666,
+      "std_accuracy": 0.035448342537309156,
+      "mean_macro_f1": 0.5773549100797971,
+      "std_macro_f1": 0.08075190703469827,
+      "num_params": 4693
+    }
+  ]
+}

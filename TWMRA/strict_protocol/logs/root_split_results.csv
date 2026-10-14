@@ -1,0 +1,30 @@
+model,configuration,selected_by_val,val_macro_f1,test_macro_f1,n_train_windows,n_val_windows,n_combined_windows,n_test_windows,status,message,val_accuracy,test_accuracy,artifact
+conv_transformer,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+convnet_har,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+dtaad,default,False,,,3875,1045,4921,1045,anomaly_only,No supervised classification builder for this model family.,,,
+egodrive_max,default,False,,,3875,1045,4921,1045,non_trainable,No supervised classification builder for this model family.,,,
+egodrive_rt,default,False,,,3875,1045,4921,1045,non_trainable,No supervised classification builder for this model family.,,,
+fusformer,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+gru,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+histgradientboosting,default,True,0.5523231892627198,0.6431512831590542,3875,1045,4921,1045,evaluated,,0.8296650717703349,0.6880382775119617,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\histgradientboosting.pkl
+lightgbm,default,True,0.6072871889743977,0.6697829558764428,3875,1045,4921,1045,evaluated,,0.8421052631578947,0.7004784688995215,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\lightgbm.pkl
+linear_svm,default,True,0.38747264121054137,0.5586217469530739,3875,1045,4921,1045,evaluated,,0.6,0.5942583732057416,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\linear_svm.pkl
+logistic_regression,default,True,0.42395349498066004,0.6295243949901023,3875,1045,4921,1045,evaluated,,0.5933014354066986,0.6382775119617224,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\logistic_regression.pkl
+lru,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+lstm,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+mega,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+mlp_tabular,default,False,,,3875,1045,4921,1045,not_trainable,ValueError: No tabular builder for mlp_tabular,,,
+random_forest,default,True,0.4925006523201695,0.5552416118488698,3875,1045,4921,1045,evaluated,,0.8210526315789474,0.6248803827751196,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\random_forest.pkl
+rbf_svm,default,True,0.4159341642035387,0.5488859803498868,3875,1045,4921,1045,evaluated,,0.23444976076555024,0.6229665071770335,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\rbf_svm.pkl
+resnet1d,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+s4d,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+s5,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+s5_onnx,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+sgconv,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+stub,default,False,,,3875,1045,4921,1045,non_trainable,No supervised classification builder for this model family.,,,
+tcnca,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+tcnca_v1,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+tcnca_v2,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+tcnca_v3,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+tst,default,False,,,3875,1045,4921,1045,not_trainable,No root-CSV training builder implemented.,,,
+xgboost,default,True,0.5692695433859982,0.6157062659070207,3875,1045,4921,1045,evaluated,,0.8344497607655502,0.6669856459330143,C:\Users\BA\Desktop\IIIT_TWO_WHEELER\models\two_wheeler_project\models\xgboost_tabular.json

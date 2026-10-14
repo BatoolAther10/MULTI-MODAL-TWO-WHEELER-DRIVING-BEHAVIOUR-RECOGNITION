@@ -1,0 +1,25 @@
+{
+  "source": "data/processed/clean.csv",
+  "split": "stratified random 80/20",
+  "random_state": 42,
+  "window_size": 156,
+  "stride": 78,
+  "feature_columns": [
+    "Ax",
+    "Ay",
+    "Az",
+    "Gx",
+    "Gy",
+    "Gz",
+    "Speed"
+  ],
+  "classes": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "train_windows": 836,
+  "test_windows": 209
+}

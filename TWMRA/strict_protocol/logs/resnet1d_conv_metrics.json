@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.4258373205741627,
+  "macro_f1": 0.11946308724832215,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\resnet1d.onnx",
+  "params": 3653
+}

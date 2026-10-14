@@ -1,0 +1,80 @@
+[
+  {
+    "name": "more_heads",
+    "d_model": 16,
+    "num_heads": 4,
+    "feedforward_dim": 32,
+    "num_blocks": 2,
+    "dropout": 0.1,
+    "learning_rate": 0.0007,
+    "accuracy": 0.7272727272727273,
+    "macro_f1": 0.6856893340605401,
+    "latency_ms": 54.20089999824995,
+    "num_params": 4693
+  },
+  {
+    "name": "wider",
+    "d_model": 24,
+    "num_heads": 2,
+    "feedforward_dim": 48,
+    "num_blocks": 2,
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "accuracy": 0.7368421052631579,
+    "macro_f1": 0.6737162304434052,
+    "latency_ms": 47.447699995245785,
+    "num_params": 10109
+  },
+  {
+    "name": "regularized",
+    "d_model": 24,
+    "num_heads": 4,
+    "feedforward_dim": 48,
+    "num_blocks": 2,
+    "dropout": 0.2,
+    "learning_rate": 0.0007,
+    "accuracy": 0.6650717703349283,
+    "macro_f1": 0.6335989590344147,
+    "latency_ms": 53.16790000506444,
+    "num_params": 10109
+  },
+  {
+    "name": "baseline",
+    "d_model": 16,
+    "num_heads": 2,
+    "feedforward_dim": 32,
+    "num_blocks": 2,
+    "dropout": 0.0,
+    "learning_rate": 0.001,
+    "accuracy": 0.69377990430622,
+    "macro_f1": 0.6014604949016442,
+    "latency_ms": 41.77854999579722,
+    "num_params": 4693
+  },
+  {
+    "name": "deeper",
+    "d_model": 16,
+    "num_heads": 2,
+    "feedforward_dim": 32,
+    "num_blocks": 3,
+    "dropout": 0.1,
+    "learning_rate": 0.0007,
+    "accuracy": 0.6842105263157895,
+    "macro_f1": 0.5570528361637523,
+    "latency_ms": 65.27479999931529,
+    "num_params": 6917
+  },
+  {
+    "name": "small_fast",
+    "d_model": 12,
+    "num_heads": 2,
+    "feedforward_dim": 24,
+    "num_blocks": 2,
+    "dropout": 0.0,
+    "learning_rate": 0.001,
+    "accuracy": 0.6220095693779905,
+    "macro_f1": 0.496252344147081,
+    "latency_ms": 44.64620000362629,
+    "num_params": 2753
+  }
+]

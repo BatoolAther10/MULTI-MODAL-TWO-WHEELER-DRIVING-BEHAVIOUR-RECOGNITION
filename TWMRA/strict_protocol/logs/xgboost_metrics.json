@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.7177033492822966,
+  "macro_f1": 0.7170539689545188,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "n_windows": 1045
+}

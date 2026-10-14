@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.69377990430622,
+  "macro_f1": 0.6665452175345494,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tcnca.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tcnca.keras",
+  "num_params": 4061,
+  "n_windows": 1045
+}

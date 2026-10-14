@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.5358851674641149,
+  "macro_f1": 0.27703152146934723,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\s5_onnx.onnx",
+  "params": 1829
+}

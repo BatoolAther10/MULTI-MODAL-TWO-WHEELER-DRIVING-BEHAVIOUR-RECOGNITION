@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.7033492822966507,
+  "macro_f1": 0.6808329518153968,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tcnca_v3.tflite",
+  "params": 44261
+}

@@ -1,0 +1,49 @@
+{
+  "protocol": "independent_windows_from_root_csvs",
+  "files": {
+    "root_train_csv": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\train.csv",
+    "root_val_csv": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\val.csv",
+    "root_train_val_csv": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\train_val_combined.csv",
+    "root_test_csv": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\test.csv"
+  },
+  "feature_columns": [
+    "Ax",
+    "Ay",
+    "Az",
+    "Gx",
+    "Gy",
+    "Gz",
+    "Speed"
+  ],
+  "window_size": 156,
+  "stride": 78,
+  "labels": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "window_counts": {
+    "root_train_csv": 3875,
+    "root_val_csv": 1045,
+    "root_train_val_csv": 4921,
+    "root_test_csv": 1045
+  },
+  "seed": 42,
+  "limitations": [
+    "Each registered family is evaluated with its default builder configuration; no hyperparameter sweep is defined.",
+    "Families without a root-CSV builder are reported explicitly and are not replaced by pre-existing artifacts.",
+    "Window labels use majority vote independently within each CSV split."
+  ],
+  "result_csv": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\logs\\root_split_results.csv",
+  "selected_models": [
+    "lightgbm",
+    "xgboost",
+    "histgradientboosting",
+    "random_forest",
+    "logistic_regression",
+    "rbf_svm",
+    "linear_svm"
+  ]
+}

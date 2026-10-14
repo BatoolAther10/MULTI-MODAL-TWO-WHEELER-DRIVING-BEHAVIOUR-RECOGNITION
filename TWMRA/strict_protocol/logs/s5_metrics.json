@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.6363636363636364,
+  "macro_f1": 0.47536649498997186,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\s5.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\s5.keras",
+  "num_params": 1029,
+  "n_windows": 1045
+}

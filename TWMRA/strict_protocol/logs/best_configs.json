@@ -1,0 +1,81 @@
+{
+  "conv_transformer": {
+    "epochs": 2
+  },
+  "convnet_har": {
+    "epochs": 2
+  },
+  "fusformer": {
+    "epochs": 2
+  },
+  "gru": {
+    "epochs": 2
+  },
+  "histgradientboosting": {
+    "learning_rate": 0.05,
+    "max_bins": 32,
+    "max_iter": 40,
+    "max_leaf_nodes": 63
+  },
+  "lightgbm": {
+    "learning_rate": 0.05,
+    "n_estimators": 120,
+    "num_leaves": 31
+  },
+  "linear_svm": {
+    "C": 0.5
+  },
+  "logistic_regression": {
+    "C": 0.5
+  },
+  "lru": {
+    "epochs": 2
+  },
+  "lstm": {
+    "epochs": 2
+  },
+  "mega": {
+    "epochs": 2
+  },
+  "mlp_tabular": {
+    "epochs": 2
+  },
+  "random_forest": {
+    "max_depth": 24,
+    "min_samples_leaf": 2,
+    "n_estimators": 100
+  },
+  "rbf_svm": {
+    "C": 8.0,
+    "gamma": "scale"
+  },
+  "resnet1d": {
+    "epochs": 2
+  },
+  "s4d": {
+    "epochs": 2
+  },
+  "s5_onnx": {
+    "epochs": 2
+  },
+  "sgconv": {
+    "epochs": 2
+  },
+  "tcnca_v1": {
+    "epochs": 2
+  },
+  "tcnca_v2": {
+    "epochs": 2
+  },
+  "tcnca_v3": {
+    "epochs": 2
+  },
+  "tst": {
+    "epochs": 2
+  },
+  "xgboost": {
+    "learning_rate": 0.03,
+    "max_depth": 6,
+    "n_estimators": 140
+  }
+}

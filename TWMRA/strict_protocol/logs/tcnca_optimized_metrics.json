@@ -1,0 +1,13 @@
+{
+  "model": "tcnca",
+  "accuracy": 0.7990430622009569,
+  "macro_f1": 0.7999794175156941,
+  "mae": 0.5645933151245117,
+  "num_params": 8600,
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tcnca_optimized.tflite",
+  "fallback_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\tcnca_optimized.keras",
+  "configuration": {
+    "channels": 24,
+    "blocks": 2
+  }
+}

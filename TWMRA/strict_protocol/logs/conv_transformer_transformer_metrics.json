@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.7703349282296651,
+  "macro_f1": 0.7388034340788411,
+  "label_order": [
+    "BUMP",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "STRAIGHT"
+  ],
+  "model_path": "C:\\Users\\BA\\Desktop\\IIIT_TWO_WHEELER\\models\\two_wheeler_project\\models\\conv_transformer.tflite",
+  "params": 18853
+}

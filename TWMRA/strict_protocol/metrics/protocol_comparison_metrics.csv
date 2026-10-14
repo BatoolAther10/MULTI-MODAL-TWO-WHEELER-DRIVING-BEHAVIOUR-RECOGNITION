@@ -1,0 +1,7 @@
+model,accuracy,macro_f1,protocol,accuracy_percent,macro_f1_percent
+TCNCA optimized,0.7990430622,0.7999794175,Random 80/20 windows,79.90430622,79.99794175
+TST optimized,0.7511961722,0.7405400467,Random 80/20 windows,75.11961722,74.05400467
+HistGradientBoosting,0.7473684211,0.7324650868,train/val/combined/test,74.73684211,73.24650868
+Validation ensemble,0.7502392344,0.7340495841,train/val/combined/test,75.02392343999999,73.40495840999999
+TCN,0.7320574163,0.7198005777,train/val/combined/test,73.20574163,71.98005777
+TST,0.6956937799,0.6821989425,train/val/combined/test,69.56937799,68.21989425
